@@ -1,0 +1,14 @@
+:root {
+  --white-100: #F5F5F5;
+  --orange-100: #c49006;
+  --orange-200: #cf8406;
+  --orange-100-400: linear-gradient(to bottom, #c49006, #b8640e);
+  --orange-400: #b8640e;
+  --green-100: #2AEBAE;
+  --green-200: #18B886;
+  --green-400: #136B50;
+  --grey-100: #D9D9D9;
+  --grey-200: #7C7C8A;
+  --grey-800: #1A1A1A;
+  --white-grey: linear-gradient(to bottom, #F5F5F5, #D9D9D9);
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Cabin:wght@700&family=Khand:wght@400;500;600&display=swap');
+
+.headingLarger {
+  font-family: Khand, "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 96px;
+}
+
+.headingExtraLarge {
+  font-family: Khand, "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.headingLarge {
+  font-family: Khand, "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.headingMedium {
+  font-family: Khand, "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.headingSmall {
+  font-family: Khand, "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.firstHeader {
+  font-family: Khand, "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 62px;
+  line-height: 62px;
+}
+
+.textLarge {
+  font-family: ABeeZee, "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.textMedium {
+  font-family: ABeeZee, "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.textSmall {
+  font-family: ABeeZee, "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.labelMedium {
+  font-family: Cabin, "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.labelSmall {
+  font-family: Cabin, "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+}

@@ -1,0 +1,154 @@
+body {
+  background-color: var(--white-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 120px;
+
+}
+nav {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}
+.logo {
+  /* color: var(--orange-400); */
+  background-image: url(../sources/logo.svg);
+  height: 64px;
+  width: 173px;
+}
+.btnLogin {
+  padding: 20px 16px 20px 60px;
+  background-color: var(--orange-200);
+  color: var(--grey-800);
+  border-radius: 100px;
+  border: none;
+  background-image: url(../sources/login.svg);
+}
+.container {
+  margin top: 80px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  
+}
+.sobre h1 {
+  color: var(--orange-400);
+}
+.sobre p {
+  color: var(--orange-400);
+  margin-top: 58px;
+  width: 608px;
+}
+.artImg {
+  margin-top: 32px;
+  margin-left: 79px;
+  max-width: 512px;
+  max-height: 512px;
+  border-radius: 16px;
+  box-shadow: var(--box-shadow);
+}
+
+.profiles {
+  margin-top: 120px;
+  height: 880px;
+  width: 100vw;
+  background: var(--orange-100-400);
+  align-items: center;
+  text-align: center;
+  box-shadow: var(--inner-box-shadow);
+}
+.profiles h1 {
+  color: var(--white-100);
+  margin-top: 144px;
+  text-shadow: var(--text-shadow);
+}
+.profiles p {
+  color: var(--white-100);
+}
+.progs {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.prog {
+  align-items: center;
+  width: 284px;
+  height: 392;
+  text-align: center;
+  margin: 0 120px;
+}
+.prog img {
+  margin: 16px;
+  max-width: 252px;
+  max-height: 252px;
+  box-shadow: var(--inner-box-shadow);
+}
+.imgProg {
+  height: 284px;
+  width: 284px;
+  border-radius: 50%;
+  background: var(--white-grey);
+  box-shadow: var(--box-shadow);
+}
+
+.prog p {
+  margin: 8px 0;
+  text-shadow: var(--text-shadow);
+}
+
+.prog p.labelMedium {
+  margin-top: 16px;
+}
+.CTA {
+  background: var(--orange-100-400);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 256px;
+  width: 1080px;
+  max-height: 256px;
+  max-width: 1080px;
+  margin: 120px 180px;
+  padding: 32px 154px;
+  border-radius: 16px;
+  box-shadow: var(--box-shadow);
+}
+
+.CTA h1{
+ margin: 0 0 32px 0;
+ text-shadow: var(--text-shadow);
+ color: var(--green-400);
+}
+
+.email {
+  width: 532px;
+  height: 48px;
+  border-radius: 4px;
+  background: var(--grey-100);
+  padding-left: 52px;
+  border: none;
+ color: var(--grey-200);
+
+}
+.inputsCTA input {
+  margin: 0 32px;
+}
+
+.inputsCTA .green-400{
+  align-self: flex-start;
+  background-: var(--white);
+  height: 40px;
+  width: 176;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: none;
+  color: var(--green-400);
+}

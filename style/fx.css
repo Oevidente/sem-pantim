@@ -1,0 +1,7 @@
+:root {
+  --text-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  --text-neon: 0 4px 8px rgba(42, 235, 174, 0.200);
+  --inner-box-shadow: inset 0 4px 16px rgba(0, 0, 0, 0.150);
+  --box-shadow: 0 4px 16px rgba(0, 0, 0, 0.150);
+  --box-neon: 0 4px 16px rgba(42, 235, 174, 0.200);
+}
