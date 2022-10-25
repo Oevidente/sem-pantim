@@ -163,9 +163,23 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: var(--inner-box-shadow);
 }
 .video-container iframe {
   border: none;
   border-radius: 16px;
   box-shadow: var(--box-shadow);
+}
+
+.slogan {
+  color: var(--orange-400);
+}
+
+.slogan h1 {
+  text-shadow: var(--text-shadow);
+  max-width: 892px;
+}
+
+.slogan p {
+  max-width: 666px;
 }
