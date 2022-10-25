@@ -1,0 +1,9 @@
+.btnLogin:hover {
+  color: var(--white-100);
+  background-image: url(../sources/login-hover.svg);
+}
+.inputBtn:hover{
+  transition: .2s ease-in-out;
+  background: var(--green-400);
+  color: var(--orange-400);
+}

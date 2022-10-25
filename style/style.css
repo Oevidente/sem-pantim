@@ -205,10 +205,19 @@ div.footer {
   max-width: 1200px;
 }
 
+.logoLg {
+  width: 346px;
+  height: 124px;
+  background-image: url(../sources/logo-lg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 23px;
+}
+
 textarea {
   padding: 12px 16px;
   resize: none;
-  border-radius: 4px;
+  border-radius: 12px;
   background: var(--grey-100);
   border: none;
   color: var(--grey-200);

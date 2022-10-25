@@ -1,0 +1,7 @@
+.email:focus {
+  outline: solid 3px var(--green-100);
+}
+
+textarea:focus {
+  outline: solid 3px var(--green-100);
+}
