@@ -61,6 +61,8 @@ nav {
   background: var(--orange-100-400);
   align-items: center;
   text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
   box-shadow: var(--inner-box-shadow);
 }
 .profiles h1 {
@@ -75,7 +77,8 @@ nav {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  max-width: 1200px;
 }
 .prog {
   align-items: center;
