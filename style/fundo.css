@@ -1,19 +1,19 @@
 body > div {
-  background-image: url(https://raw.githubusercontent.com/Oevidente/sem-pantim/main/img/ativo1.png);
+  background-image: url(../img/Ativo1.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 100vw auto;
 }
 
 .profiles .fundo {
-  background-image: url(https://raw.githubusercontent.com/Oevidente/sem-pantim/main/img/ativo2.png);
+  background-image: url(../img/Ativo2.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 100vw auto;
 }
 
 article.slogan {
-  background-image: url(https://raw.githubusercontent.com/Oevidente/sem-pantim/main/img/ativo3.png);
+  background-image: url(../img/Ativo3.png);
   background-size: 100vw auto;
   background-position: center top;
   background-repeat: no-repeat;
