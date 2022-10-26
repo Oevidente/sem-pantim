@@ -10,11 +10,11 @@ body p {
 body a {
   z-index: 1;
 }
-body input {
-  z-index: 1;
+input {
+  z-index: 100;
 }
-body textarea {
-  z-index: 1;
+textarea {
+  z-index: 3;
 }
 body img {
   z-index: 1;
@@ -23,17 +23,17 @@ body iframe {
   z-index: 1;
 }
 body {
-  z-index: -3;
+  z-index: auto;
 }
 body div {
-  z-index: -2;
+  z-index: auto;
 }
 body section {
-  z-index: -2;
+  z-index: auto;
 }
 body article {
-  z-index: -2;
+  z-index: auto;
 }
 body footer {
-  z-index: -2;
+  z-index: auto;
 }
