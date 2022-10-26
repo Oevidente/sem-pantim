@@ -1,0 +1,36 @@
+body h1 {
+  z-index: 1;
+}
+body h2 {
+  z-index: 1;
+}
+body p {
+  z-index: 1;
+}
+body a {
+  z-index: 1;
+}
+body input {
+  z-index: 1;
+}
+body textarea {
+  z-index: 1;
+}
+body img {
+  z-index: 1;
+}
+body iframe {
+  z-index: 1;
+}
+body div {
+  z-index: -2;
+}
+body section {
+  z-index: -2;
+}
+body article {
+  z-index: -2;
+}
+body footer {
+  z-index: -2;
+}

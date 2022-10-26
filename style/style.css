@@ -1,10 +1,10 @@
 body {
+  background-image: url(../img/bg.png)
   background-color: var(--white-100);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 120px;
-
 }
 nav {
   margin-top: 64px;
@@ -27,6 +27,12 @@ nav {
   border-radius: 100px;
   border: none;
   background-image: url(../sources/login.svg);
+}
+body > div {
+  width: 100vw;
+  height: 840px;
+  display: flex;
+  justify-content: center;
 }
 .container {
   margin top: 80px;
@@ -55,7 +61,7 @@ nav {
 }
 
 .profiles {
-  margin-top: 120px;
+  
   height: 880px;
   width: 100vw;
   background: var(--orange-100-400);
