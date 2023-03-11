@@ -1,1 +1,251 @@
 /* tamanho minimo para crop 1560px */
+@media (max-width: 1200px) {
+  body {
+    transition: 0.2s ease;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  nav {
+    margin-top: 2vh;
+    transition: 0.2s ease;
+    max-width: 90vw;
+  }
+  .trecho1 {
+    transition: 0.2s ease;
+    justify-content: center;
+    height: 1000px !important;
+    z-index: 1;
+  }
+  .container {
+    transition: 0.2s ease;
+    max-width: 90vw;
+  }
+  .sobre {
+    transition: 0.2s ease;
+    max-width: 45vw;
+    align-items: stretch;
+  }
+  .sobre * {
+    transition: 0.2s ease;
+    max-width: 45vw;
+  }
+  .sobre .firstHeader {
+    transition: 0.2s ease;
+    font-size: 2em;
+    line-height: 1;
+    align-items: stretch;
+    margin: 0px;
+  }
+  .sobre p {
+    transition: 0.2s ease;
+    margin: 1vh 0 0 0;
+    font-size: 1em;
+    line-height: 1;
+    z-index: 1;
+  }
+
+  .artImg {
+    transition: 0.2s ease;
+    max-width: 40vw;
+    margin: 0;
+    align-self: center;
+  }
+  .profiles {
+    transition: 0.2s ease;
+    align-items: stretch;
+    max-width: 100vw;
+    max-height: 80vh;
+  }
+  .profiles .headingLarger {
+    margin: 10vh 0;
+    transition: 0.2s ease;
+    font-size: 3em;
+    line-height: 1;
+    align-items: stretch;
+  }
+  .profiles p {
+    transition: 0.2s ease;
+    font-size: 1em;
+    line-height: 1;
+  }
+
+  .progs {
+    transition: 0.2s ease;
+    max-width: 100vw;
+  }
+  .prog {
+    transition: 0.2s ease;
+    margin: 0 5vw;
+    max-width: 23vw;
+    align-items: space-around;
+    /* bloco onde ficam imagens e textos dos programadores */
+  }
+  .prog img {
+    transition: 0.2s ease;
+    margin: 1.5vw auto;
+    max-width: 20vw;
+    max-height: 20vw;
+  }
+  .imgProg {
+    transition: 0.2s ease;
+    max-width: 23vw;
+    max-height: 23vw;
+  }
+  .prog p {
+    transition: 0.2s ease;
+    text-align: center;
+  }
+
+  .prog p.labelMedium {
+    transition: 0.2s ease;
+    text-align: center;
+  }
+  .CTA {
+    transition: 0.2s ease;
+    max-width: 90vw;
+    margin: 5vh 0;
+    padding: 5vh 0;
+  }
+  .CTA .headingExtraLarge {
+    transition: 0.2s ease;
+    font-size: 3em;
+    line-height: 1;
+    text-align: center;
+  }
+  .inputsCTA {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    transition: 0.2s ease;
+    width: 80vw;
+    padding: 0;
+  }
+  .CTA .inputBtn {
+    transition: 0.2s ease;
+    margin: auto;
+  }
+  .email {
+    transition: 0.2s ease;
+    max-width: 60vw;
+    margin: 0 auto;
+  }
+  .inputsCTA input {
+    transition: 0.2s ease;
+    margin: 2vh auto;
+  }
+  .video-container {
+    transition: 0.2s ease;
+    max-width: 100vw;
+    max-height: 60vh;
+  }
+  .video-container iframe {
+    transition: 0.2s ease;
+    max-width: 80vw;
+    max-height: 40vh;
+    border-radius: 8px;
+  }
+  .slogan {
+    transition: 0.2s ease;
+    max-width: 90vw;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: max-content;
+    align-items: stretch;
+  }
+  .slogan * {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .slogan .fundo {
+    max-height: 300px;
+  }
+  .slogan .headingLarger {
+    margin-top: -4vh;
+    transition: 0.2s ease;
+    font-size: 2.8em;
+    line-height: 1;
+  }
+  .slogan p {
+    margin-top: 2vh;
+    transition: 0.2s ease;
+    font-size: 1em;
+    line-height: 1;
+    width: 90vw;
+    height: max-content;
+  }
+  footer {
+    transition: 0.2s ease;
+    margin-top: -12vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    max-width: 100vw;
+    align-items: stretch;
+    height: 900px;
+  }
+  .footer {
+    transition: 0.2s ease;
+    flex-direction: column !important;
+    width: 90vw !important;
+    padding: 0;
+    margin: 0 5vw !important;
+    align-items: stretch;
+  }
+  .logoLg {
+    margin-top: 2vh;
+    max-width: 40%;
+    height: 25%;
+    padding: 0 !important;
+  }
+  .footer textarea {
+    width: fit-content;
+    max-width: 80vw;
+    max-height: 40vh;
+    margin: 0;
+  }
+  .col1 {
+    max-width: 80vw !important;
+    margin: auto;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .col2 {
+    max-width: 80vw !important;
+    max-height: 50%;
+    margin: auto;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .col2 .headingLarge {
+    font-size: 2em;
+  }
+  .gits {
+    margin: auto !important;
+    font-size: 1em;
+    width: 90vw !important;
+  }
+  .gits a {
+    margin-top: 0.2vh;
+  }
+}
+@media (max-width: 900px) {
+  .video-container {
+    transition: 0.2s ease;
+    max-width: 100vw;
+    max-height: 30vh;
+  }
+  .video-container iframe {
+    transition: 0.2s ease;
+    max-width: 80vw;
+    max-height: 20vh;
+    border-radius: 8px;
+  }
+}
+@media (max-width: 700px) {
+  .profiles {
+    transition: 0.2s ease;
+    align-items: stretch;
+    max-width: 100vw;
+    max-height: 60vh;
+  }
+}

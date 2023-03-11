@@ -1,4 +1,5 @@
 body {
+  transition: 0.2s ease;
   background-color: var(--white-100);
   display: flex;
   flex-direction: column;
@@ -6,6 +7,7 @@ body {
   padding: 0 120px;
 }
 nav {
+  transition: 0.2s ease;
   margin-top: 64px;
   display: flex;
   flex-direction: row;
@@ -14,12 +16,14 @@ nav {
   width: 1200px;
 }
 .logo {
+  transition: 0.2s ease;
   /* color: var(--orange-400); */
   background-image: url(../sources/logo.svg);
   height: 64px;
   width: 173px;
 }
 .btnLogin {
+  transition: 0.2s ease;
   padding: 20px 16px 20px 60px;
   background-color: var(--orange-200);
   color: var(--grey-800);
@@ -28,29 +32,33 @@ nav {
   background-image: url(../sources/login.svg);
 }
 body > div {
+  transition: 0.2s ease;
   width: 100vw;
   height: 840px;
   display: flex;
   justify-content: center;
 }
 .container {
-  margin top: 80px;
+  transition: 0.2s ease;
+  margin-top: 80px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   width: 1200px;
-  
 }
 .sobre h1 {
+  transition: 0.2s ease;
   color: var(--orange-400);
 }
 .sobre p {
+  transition: 0.2s ease;
   color: var(--orange-400);
   margin-top: 58px;
   width: 608px;
 }
 .artImg {
+  transition: 0.2s ease;
   margin-top: 32px;
   margin-left: 79px;
   max-width: 512px;
@@ -60,6 +68,7 @@ body > div {
 }
 
 .profiles {
+  transition: 0.2s ease;
   height: 880px;
   width: 100vw;
   background: var(--orange-100-400);
@@ -70,6 +79,7 @@ body > div {
   box-shadow: var(--inner-box-shadow);
 }
 .profiles .fundo {
+  transition: 0.2s ease;
   width: 100vw;
   height: 880px;
   display: flex;
@@ -77,14 +87,17 @@ body > div {
   align-items: center;
 }
 .profiles h1 {
+  transition: 0.2s ease;
   color: var(--white-100);
   margin-top: 144px;
   text-shadow: var(--text-shadow);
 }
 .profiles p {
+  transition: 0.2s ease;
   color: var(--white-100);
 }
 .progs {
+  transition: 0.2s ease;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -92,6 +105,7 @@ body > div {
   max-width: 1200px;
 }
 .prog {
+  transition: 0.2s ease;
   align-items: center;
   width: 284px;
   height: 392;
@@ -99,12 +113,14 @@ body > div {
   margin: 0 120px;
 }
 .prog img {
+  transition: 0.2s ease;
   margin: 16px;
   max-width: 252px;
   max-height: 252px;
   box-shadow: var(--inner-box-shadow);
 }
 .imgProg {
+  transition: 0.2s ease;
   height: 284px;
   width: 284px;
   border-radius: 50%;
@@ -113,14 +129,17 @@ body > div {
 }
 
 .prog p {
+  transition: 0.2s ease;
   margin: 8px 0;
   text-shadow: var(--text-shadow);
 }
 
 .prog p.labelMedium {
+  transition: 0.2s ease;
   margin-top: 16px;
 }
 .CTA {
+  transition: 0.2s ease;
   background: var(--orange-100-400);
   display: flex;
   flex-direction: column;
@@ -136,27 +155,30 @@ body > div {
   box-shadow: var(--box-shadow);
 }
 
-.CTA h1{
- margin: 0 0 32px 0;
- text-shadow: var(--text-shadow);
- color: var(--green-400);
+.CTA h1 {
+  transition: 0.2s ease;
+  margin: 0 0 32px 0;
+  text-shadow: var(--text-shadow);
+  color: var(--green-400);
 }
 
 .email {
+  transition: 0.2s ease;
   width: 532px;
   height: 48px;
   border-radius: 4px;
   background: var(--grey-100);
   padding-left: 52px;
   border: none;
- color: var(--grey-200);
-
+  color: var(--grey-200);
 }
 .inputsCTA input {
+  transition: 0.2s ease;
   margin: 0 32px;
 }
 
-.inputsCTA .green-400{
+.inputsCTA .green-400 {
+  transition: 0.2s ease;
   align-self: flex-start;
   background-: var(--white);
   height: 40px;
@@ -168,6 +190,7 @@ body > div {
 }
 
 .video-container {
+  transition: 0.2s ease;
   height: 576px;
   width: 100vw;
   background: var(--orange-100-400);
@@ -177,12 +200,14 @@ body > div {
   box-shadow: var(--inner-box-shadow);
 }
 .video-container iframe {
+  transition: 0.2s ease;
   border: none;
   border-radius: 16px;
   box-shadow: var(--box-shadow);
 }
 
 .slogan {
+  transition: 0.2s ease;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -194,6 +219,7 @@ body > div {
 }
 
 .slogan div {
+  transition: 0.2s ease;
   width: 1200px;
   height: 832px;
   margin: 0;
@@ -201,18 +227,21 @@ body > div {
 }
 
 .slogan h1 {
+  transition: 0.2s ease;
   text-shadow: var(--text-shadow);
   max-width: 892px;
   margin: 0;
 }
 
 .slogan p {
+  transition: 0.2s ease;
   margin: 92px 0 0 0;
   /* mds socorro kkkkkk */
   max-width: 666px;
 }
 
 footer {
+  transition: 0.2s ease;
   margin: 0;
   width: 100vw;
   height: 738px;
@@ -224,6 +253,7 @@ footer {
 }
 
 div.footer {
+  transition: 0.2s ease;
   display: flex;
   flex-flow: row nowrap;
   width: 1200px;
@@ -231,6 +261,7 @@ div.footer {
 }
 
 .logoLg {
+  transition: 0.2s ease;
   width: 346px;
   height: 124px;
   background-image: url(../sources/logo-lg.svg);
@@ -240,6 +271,7 @@ div.footer {
 }
 
 textarea {
+  transition: 0.2s ease;
   padding: 12px 16px;
   resize: none;
   border-radius: 12px;
@@ -248,19 +280,22 @@ textarea {
   color: var(--grey-200);
 }
 .footer h2 {
+  transition: 0.2s ease;
   max-width: 205px;
   text-shadow: var(--text-shadow);
 }
 
 .col1 {
+  transition: 0.2s ease;
   align-self: flex-start;
   display: flex;
   flex-direction: column;
   margin: auto auto auto 0;
 }
 .col1 input {
+  transition: 0.2s ease;
   margin-top: 32px;
-  color: var(--green-400); 
+  color: var(--green-400);
   background-: var(--white);
   height: 40px;
   width: 176px;
@@ -269,17 +304,20 @@ textarea {
   border: none;
 }
 .col2 {
+  transition: 0.2s ease;
   display: flex;
   flex-direction: column;
   margin: auto;
 }
 .gits {
+  transition: 0.2s ease;
   display: flex;
   flex-flow: column wrap;
   max-height: 288px;
   max-width: 465px;
 }
 .gits a {
+  transition: 0.2s ease;
   color: var(--white-100);
   text-decoration: none;
   margin: 0 32px 16px 0;
