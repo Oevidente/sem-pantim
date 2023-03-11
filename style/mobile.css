@@ -12,7 +12,7 @@
     max-width: 90vw;
   }
   .logo {
-    font-family: Khand, 'Helvetica', 'Arial', sans-serif;
+    font-family: Khand, 'Helvetica', 'Arial', sans-serif !important;
   }
   .trecho1 {
     transition: 0.2s ease;
