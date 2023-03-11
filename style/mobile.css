@@ -11,6 +11,9 @@
     transition: 0.2s ease;
     max-width: 90vw;
   }
+  .logo {
+    font-family: Khand, 'Helvetica', 'Arial', sans-serif;
+  }
   .trecho1 {
     transition: 0.2s ease;
     justify-content: center;
